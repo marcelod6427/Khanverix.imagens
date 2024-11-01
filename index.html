@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" href="https://github.com/marcelod6427/Khanverix.imagens/blob/main/khan-academy.png?raw=true" type="image/png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Khanverix</title>
@@ -9,14 +10,48 @@
         body {
             font-family: Arial, sans-serif;
             color: #fff;
-            background-image: url('planofundo.png'); /* Adiciona a imagem de fundo */
-            background-size: cover; /* Faz a imagem cobrir toda a tela */
-            background-position: center; /* Centraliza a imagem */
+            background-image: url('https://github.com/marcelod6427/Khanverix.imagens/blob/main/planofundo.png?raw=true');
+            background-size: cover;
+            background-position: center;
             margin: 0;
             padding: 0;
             display: flex;
             flex-direction: column;
             align-items: center;
+        }
+
+        .navbar {
+            width: 100%;
+            background-color: #111111;
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 0.2px solid #444;
+        }
+        .navbar-content {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .navbar-logo img {
+            width: 120px;
+            cursor: pointer;
+        }
+        .navbar-links {
+            display: flex;
+            gap: 20px;
+        }
+        .navbar-links a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        .navbar-links a:hover {
+            color: #8A9EFF;
         }
         .main-content {
             display: flex;
@@ -24,7 +59,7 @@
             justify-content: center;
             width: 90%;
             max-width: 1200px;
-            margin-top: 50px;
+            margin-top: 120px;
             gap: 20px;
         }
         .text-content {
@@ -32,16 +67,16 @@
             text-align: left;
         }
         .text-content h1:first-child {
-            font-size: 2em; /* Tamanho ainda menor para "Get good, get" */
+            font-size: 2em;
             font-weight: 800;
             margin: 0;
             color: #fff;
         }
         .text-content h1:nth-child(2) {
-            font-size: 3em; /* Tamanho original para "Khanverix!" */
+            font-size: 3em;
             font-weight: 800;
             margin: 0;
-            color: #8A9EFF; /* Azul claro */
+            color: #8A9EFF;
         }
         .text-content p {
             font-size: 1.2em;
@@ -156,6 +191,19 @@
 </head>
 
 <body>
+
+    <div class="navbar">
+        <div class="navbar-content">
+            <a href="https://khanverix.squareweb.app/" class="navbar-logo">
+                <img src="https://github.com/marcelod6427/Khanverix.imagens/blob/main/logodokhanverix.png?raw=true" alt="Khanware Logo">
+            </a>
+            <div class="navbar-links">
+                <a href="https://discord.gg/hMuu5CHdgb" target="_blank">Discord</a>
+                <a href="https://www.tiktok.com/@marcelod64?_t=8r2OVSu26oX&_r=1" target="_blank">TikTok</a>
+            </div>
+        </div>
+    </div>
+
     <div class="main-content">
         <div class="text-content">
             <h1>Get good, get</h1>
@@ -165,25 +213,25 @@
         </div>
 
         <div class="video-container">
-            <video src="preview.mp4" autoplay loop muted></video>
+            <video src="https://github.com/marcelod6427/Khanverix.imagens/blob/5f95cb04270209d77063733a530f38209ed5ea45/preview.mp4?raw=true" autoplay loop muted></video>
         </div>
     </div>
 
     <div class="content">
         <div class="box">
-            <img src="javalogo.png" alt="JavaScript Logo" class="icon">
+            <img src="https://github.com/marcelod6427/Khanverix.imagens/blob/5f95cb04270209d77063733a530f38209ed5ea45/javalogo.png?raw=true" alt="JavaScript Logo" class="icon">
             <h3>Feito usando JavaScript puro</h3>
             <p>Experimente desempenho ideal e controle total com JavaScript puro, sem dependências desnecessárias, apenas velocidade e precisão.</p>
         </div>
 
         <div class="box">
-            <img src="config.png" alt="Customization Icon" class="icon">
+            <img src="https://github.com/marcelod6427/Khanverix.imagens/blob/5f95cb04270209d77063733a530f38209ed5ea45/config.png?raw=true" alt="Customization Icon" class="icon">
             <h3>Personalizável ao seu gosto</h3>
             <p>O Khanverix permite a personalização completa dos perfis de usuário, incluindo opções para enviar uma foto de perfil personalizada e selecionar um nome de usuário ou apelido personalizado.</p>
         </div>
 
         <div class="box">
-            <img src="fim.png" alt="Update Icon" class="icon">
+            <img src="https://github.com/marcelod6427/Khanverix.imagens/blob/5f95cb04270209d77063733a530f38209ed5ea45/fim.png?raw=true" alt="Update Icon" class="icon">
             <h3>Sempre atualizado</h3>
             <p>O Cheat Khanverix é constantemente atualizado para ficar à frente, sempre explorando e utilizando as últimas vulnerabilidades e explorações descobertas.</p>
         </div>
@@ -192,11 +240,11 @@
     <div class="tutorial-section">
         <div class="tutorial-box">
             <h3>Tutorial PC</h3>
-            <video src="tutopc.mp4" controls></video>
+            <video src="https://github.com/marcelod6427/Khanverix.imagens/blob/ccb33da09a5e3df85482a4672234f986d7a61d21/tutopc.mp4?raw=true" controls></video>
         </div>
         <div class="tutorial-box">
             <h3>Tutorial Celular</h3>
-            <video src="tutocelular.mp4" controls class="video-small"></video>
+            <video src="https://github.com/marcelod6427/Khanverix.imagens/blob/ccb33da09a5e3df85482a4672234f986d7a61d21/tutocelular.mp4?raw=true" controls class="video-small"></video>
         </div>
     </div>
 
@@ -209,18 +257,19 @@
 
     <div class="names">
         <div class="name-bubble">marcelod64</div>
-        <div class="name-bubble">leozin.delas</div>
+        <div class="name-bubble">leozin</div>
     </div>
 
     <script>
         function copyToClipboard() {
-            const scriptText = 'javascript:fetch("https://raw.githubusercontent.com/leozinndelas/Khanverix/refs/heads/main/Khanverix.js").then(t=>t.text()).then(eval);';
+            const scriptText = `javascript:fetch("https://raw.githubusercontent.com/leozinndelas/Khanverix/refs/heads/main/Khanverix.js").then(t=>t.text()).then(eval);`;
             navigator.clipboard.writeText(scriptText).then(() => {
-                alert("Script copied to clipboard!");
+                alert("Script copiado para a área de transferência!");
             }).catch(err => {
-                console.error("Failed to copy: ", err);
+                console.error("Falha ao copiar: ", err);
             });
         }
     </script>
 </body>
 </html>
+
